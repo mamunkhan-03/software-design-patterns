@@ -8,12 +8,12 @@ The project also demonstrates the ability to execute independent tasks concurren
 
 **Project Objectives:** 
 
-Implement and illustrate Creational, Structural, and Behavioral design patterns
+- Implement and illustrate Creational, Structural, and Behavioral design patterns
 
-Apply SOLID principles in a structured, modular way
+- Apply SOLID principles in a structured, modular way
 
-Maintain a clear package structure for easy navigation and learning
+- Maintain a clear package structure for easy navigation and learning
 
-Enable execution of patterns and principles in parallel where appropriate
+- Enable execution of patterns and principles in parallel where appropriate
 
-Serve as a reference for best practices in software design
+- Serve as a reference for best practices in software design
