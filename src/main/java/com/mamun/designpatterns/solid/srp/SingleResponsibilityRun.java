@@ -17,5 +17,9 @@ public class SingleResponsibilityRun {
         System.out.println("\n---- Loan Info ----");
         double interest = loanInterestService.getInterestRate("HOMELOAN");
         System.out.println("Interest Rate: " + interest + "%");
+
+        System.out.println(
+                "Running SRP on thread: " + Thread.currentThread()
+        );
     }
 }
