@@ -1,8 +1,12 @@
 package com.mamun.designpatterns.runner;
 
+import com.mamun.designpatterns.solid.isp.InterfaceSegregationRun;
+import com.mamun.designpatterns.solid.lsp.LiskovSubstituitionRun;
+import com.mamun.designpatterns.solid.ocp.OpenClosedRun;
+import com.mamun.designpatterns.solid.srp.SingleResponsibilityRun;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import com.mamun.designpatterns.creational.singleton.SingletonDemo;
+
 @Component
 public class PatternRunner implements CommandLineRunner {
 
@@ -12,7 +16,10 @@ public class PatternRunner implements CommandLineRunner {
         System.out.println("welcome");
         System.out.println("===== DESIGN PATTERN DEMO =====");
 
-        SingletonDemo.run();
+        //SingleResponsibilityRun.run();
+        //OpenClosedRun.run();
+        //LiskovSubstituitionRun.run();
+        InterfaceSegregationRun.run();
 
     }
 }
