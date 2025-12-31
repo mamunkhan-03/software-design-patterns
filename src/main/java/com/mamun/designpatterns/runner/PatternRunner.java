@@ -1,5 +1,6 @@
 package com.mamun.designpatterns.runner;
 
+import com.mamun.designpatterns.solid.dip.DependencyInversionRun;
 import com.mamun.designpatterns.solid.isp.InterfaceSegregationRun;
 import com.mamun.designpatterns.solid.lsp.LiskovSubstituitionRun;
 import com.mamun.designpatterns.solid.ocp.OpenClosedRun;
@@ -19,7 +20,9 @@ public class PatternRunner implements CommandLineRunner {
         //SingleResponsibilityRun.run();
         //OpenClosedRun.run();
         //LiskovSubstituitionRun.run();
-        InterfaceSegregationRun.run();
+        //InterfaceSegregationRun.run();
+
+        DependencyInversionRun.run();
 
     }
 }
