@@ -1,4 +1,4 @@
-package com.mamun.designpatterns.solid.srp.schenario;
+package com.mamun.designpatterns.solid.srp.scenario;
 
 public class BankService {
 

@@ -1,4 +1,4 @@
-package com.mamun.designpatterns.solid.lsp.schenario;
+package com.mamun.designpatterns.solid.lsp.scenario;
 
 public class FixedDepositAccount extends BankAccount {
 

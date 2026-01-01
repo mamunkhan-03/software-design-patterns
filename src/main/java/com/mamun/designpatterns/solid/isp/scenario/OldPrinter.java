@@ -1,4 +1,4 @@
-package com.mamun.designpatterns.solid.isp.schenario;
+package com.mamun.designpatterns.solid.isp.scenario;
 
 public class OldPrinter implements AllInOnePrinter{
     @Override

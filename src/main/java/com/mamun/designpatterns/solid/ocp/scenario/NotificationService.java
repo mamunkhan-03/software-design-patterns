@@ -1,4 +1,4 @@
-package com.mamun.designpatterns.solid.ocp.schenario;
+package com.mamun.designpatterns.solid.ocp.scenario;
 
 public class NotificationService {
 
