@@ -19,8 +19,8 @@ public class PatternRunner implements CommandLineRunner {
         System.out.println("welcome");
         System.out.println("===== DESIGN PATTERN DEMO =====");
 
-        SingleResponsibilityRun.run();
-        //OpenClosedRun.run();
+        //SingleResponsibilityRun.run();
+        OpenClosedRun.run();
         //LiskovSubstituitionRun.run();
         //InterfaceSegregationRun.run();
         //DependencyInversionRun.run();
