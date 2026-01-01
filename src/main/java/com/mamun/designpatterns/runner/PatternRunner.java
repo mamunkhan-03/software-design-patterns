@@ -23,7 +23,7 @@ public class PatternRunner implements CommandLineRunner {
         //OpenClosedRun.run();
         //LiskovSubstituitionRun.run();
         //InterfaceSegregationRun.run();
-        //DependencyInversionRun.run();
+        DependencyInversionRun.run();
 
 //        Thread.startVirtualThread(() -> SingleResponsibilityRun.run());
 //
@@ -36,14 +36,14 @@ public class PatternRunner implements CommandLineRunner {
 //        Thread.startVirtualThread(() -> DependencyInversionRun.run());
 
 
-        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
-
-            executor.submit(SingleResponsibilityRun::run);
-            executor.submit(OpenClosedRun::run);
-            executor.submit(LiskovSubstituitionRun::run);
-            executor.submit(InterfaceSegregationRun::run);
-            executor.submit(DependencyInversionRun::run);
-        }
+//        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+//
+//            executor.submit(SingleResponsibilityRun::run);
+//            executor.submit(OpenClosedRun::run);
+//            executor.submit(LiskovSubstituitionRun::run);
+//            executor.submit(InterfaceSegregationRun::run);
+//            executor.submit(DependencyInversionRun::run);
+//        }
 
     }
 }
