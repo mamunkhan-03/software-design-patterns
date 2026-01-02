@@ -1,6 +1,7 @@
 package com.mamun.designpatterns.runner;
 
 import com.mamun.designpatterns.creational.abstractFactory.AbstractFactoryRun;
+import com.mamun.designpatterns.creational.builder.BuilderRun;
 import com.mamun.designpatterns.creational.factory.FactoryRun;
 import com.mamun.designpatterns.creational.prototype.PrototypeRun;
 import com.mamun.designpatterns.creational.singleton.SingletonRun;
@@ -31,7 +32,8 @@ public class PatternRunner implements CommandLineRunner {
        // FactoryRun.run();
         //AbstractFactoryRun.run();
         //SingletonRun.run();
-        PrototypeRun.run();
+        //PrototypeRun.run();
+        BuilderRun.run();
 
 
 //        Thread.startVirtualThread(() -> SingleResponsibilityRun.run());
