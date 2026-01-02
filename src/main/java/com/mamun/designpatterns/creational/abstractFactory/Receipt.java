@@ -1,4 +1,6 @@
 package com.mamun.designpatterns.creational.abstractFactory;
 
-public class demo {
+public interface Receipt {
+
+    void generateReceipt();
 }

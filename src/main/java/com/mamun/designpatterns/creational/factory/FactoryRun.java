@@ -21,7 +21,7 @@ public class FactoryRun {
         System.out.println("Transaction ID: " + result1.get("transaction_id"));
         System.out.println();
 
-        // Example 2: Process PayPal Payment
+
         System.out.println("--- PayPal Payment ---");
         Map<String, String> payPalCredential= new HashMap<>();
         payPalCredential.put("email", "mamun@gmail.com");
@@ -33,7 +33,6 @@ public class FactoryRun {
         System.out.println("Transaction ID: " + result2.get("transaction_id"));
         System.out.println();
 
-        // Example 3: Process Cryptocurrency Payment
         System.out.println("---Cryptocurrency Payment ---");
         Map<String, String> cryptoCredential = new HashMap<>();
         cryptoCredential.put("walletAddress", "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa");

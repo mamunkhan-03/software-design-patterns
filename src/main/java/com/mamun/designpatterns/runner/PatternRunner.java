@@ -1,5 +1,6 @@
 package com.mamun.designpatterns.runner;
 
+import com.mamun.designpatterns.creational.abstractFactory.AbstractFactoryRun;
 import com.mamun.designpatterns.creational.factory.FactoryRun;
 import com.mamun.designpatterns.solid.dip.DependencyInversionRun;
 import com.mamun.designpatterns.solid.isp.InterfaceSegregationRun;
@@ -25,8 +26,8 @@ public class PatternRunner implements CommandLineRunner {
         //LiskovSubstituitionRun.run();
         //InterfaceSegregationRun.run();
         //DependencyInversionRun.run();
-
-        FactoryRun.run();
+       // FactoryRun.run();
+        AbstractFactoryRun.run();
 
 
 //        Thread.startVirtualThread(() -> SingleResponsibilityRun.run());
