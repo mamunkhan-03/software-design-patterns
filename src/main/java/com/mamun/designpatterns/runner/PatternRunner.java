@@ -2,6 +2,7 @@ package com.mamun.designpatterns.runner;
 
 import com.mamun.designpatterns.creational.abstractFactory.AbstractFactoryRun;
 import com.mamun.designpatterns.creational.factory.FactoryRun;
+import com.mamun.designpatterns.creational.prototype.PrototypeRun;
 import com.mamun.designpatterns.creational.singleton.SingletonRun;
 import com.mamun.designpatterns.solid.dip.DependencyInversionRun;
 import com.mamun.designpatterns.solid.isp.InterfaceSegregationRun;
@@ -29,7 +30,8 @@ public class PatternRunner implements CommandLineRunner {
         //DependencyInversionRun.run();
        // FactoryRun.run();
         //AbstractFactoryRun.run();
-        SingletonRun.run();
+        //SingletonRun.run();
+        PrototypeRun.run();
 
 
 //        Thread.startVirtualThread(() -> SingleResponsibilityRun.run());
