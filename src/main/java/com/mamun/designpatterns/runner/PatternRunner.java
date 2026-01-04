@@ -2,9 +2,11 @@ package com.mamun.designpatterns.runner;
 
 import com.mamun.designpatterns.behavioral.chainOfResponsibility.ChainOfResponsibilityRun;
 import com.mamun.designpatterns.behavioral.command.CommandRun;
+import com.mamun.designpatterns.behavioral.iterator.IteratorRun;
 import com.mamun.designpatterns.behavioral.observer.ObserverRun;
 import com.mamun.designpatterns.behavioral.observer2.Observer2Run;
 import com.mamun.designpatterns.behavioral.strategy.StrategyRun;
+import com.mamun.designpatterns.behavioral.template.TemplateRun;
 import com.mamun.designpatterns.creational.abstractFactory.AbstractFactoryRun;
 import com.mamun.designpatterns.creational.builder.BuilderRun;
 import com.mamun.designpatterns.creational.factory.FactoryRun;
@@ -43,7 +45,10 @@ public class PatternRunner implements CommandLineRunner {
         //CommandRun.run();
         //StrategyRun.run();
         //ObserverRun.run();
-        Observer2Run.run();
+        //Observer2Run.run();
+        //IteratorRun.run();
+
+        TemplateRun.run();
 
 
 //        Thread.startVirtualThread(() -> SingleResponsibilityRun.run());
