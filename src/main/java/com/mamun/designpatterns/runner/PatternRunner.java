@@ -21,9 +21,11 @@ import com.mamun.designpatterns.solid.ocp.OpenClosedRun;
 import com.mamun.designpatterns.solid.srp.SingleResponsibilityRun;
 import com.mamun.designpatterns.structural.adapter.AdapterRun;
 import com.mamun.designpatterns.structural.bridge.BridgeRun;
+import com.mamun.designpatterns.structural.composite.CompositeRun;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import java.awt.*;
 import java.util.concurrent.Executors;
 
 @Component
@@ -32,8 +34,6 @@ public class PatternRunner implements CommandLineRunner {
     @Override
     public void run(String... args) {
 
-        System.out.println("welcome");
-        System.out.println("===== DESIGN PATTERN DEMO =====");
 
         //SingleResponsibilityRun.run();
         //OpenClosedRun.run();
@@ -55,28 +55,9 @@ public class PatternRunner implements CommandLineRunner {
         //MementoRun.run();
         //MediatorRun.run();
         //AdapterRun.run();
-        BridgeRun.run();
+        //BridgeRun.run();
+        //CompositeRun.run();
 
-
-//        Thread.startVirtualThread(() -> SingleResponsibilityRun.run());
-//
-//        Thread.startVirtualThread(() -> OpenClosedRun.run());
-//
-//        Thread.startVirtualThread(() -> LiskovSubstituitionRun.run());
-//
-//        Thread.startVirtualThread(() -> InterfaceSegregationRun.run());
-//
-//        Thread.startVirtualThread(() -> DependencyInversionRun.run());
-
-
-//        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
-//
-//            executor.submit(SingleResponsibilityRun::run);
-//            executor.submit(OpenClosedRun::run);
-//            executor.submit(LiskovSubstituitionRun::run);
-//            executor.submit(InterfaceSegregationRun::run);
-//            executor.submit(DependencyInversionRun::run);
-//        }
 
     }
 }
