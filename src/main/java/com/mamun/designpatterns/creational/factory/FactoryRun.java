@@ -7,7 +7,7 @@ public class FactoryRun {
 
     public static void run (){
 
-        System.out.println("---Credit Card Payment ---");
+        System.out.println("Credit Card Payment: ");
         Map<String, String> creditCardCredential = new HashMap<>();
         creditCardCredential.put("cardNumber", "1234567812345678");
         creditCardCredential.put("cardCodeNo", "1234");
@@ -22,7 +22,7 @@ public class FactoryRun {
         System.out.println();
 
 
-        System.out.println("--- PayPal Payment ---");
+        System.out.println("PayPal Payment : ");
         Map<String, String> payPalCredential= new HashMap<>();
         payPalCredential.put("email", "mamun@gmail.com");
         payPalCredential.put("password", "mamun@123");
@@ -33,7 +33,7 @@ public class FactoryRun {
         System.out.println("Transaction ID: " + result2.get("transaction_id"));
         System.out.println();
 
-        System.out.println("---Cryptocurrency Payment ---");
+        System.out.println("Cryptocurrency Payment : ");
         Map<String, String> cryptoCredential = new HashMap<>();
         cryptoCredential.put("walletAddress", "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa");
         cryptoCredential.put("cryptoType", "Bitcoin");
