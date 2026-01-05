@@ -35,7 +35,7 @@ public class PatternRunner implements CommandLineRunner {
     public void run(String... args) {
 
 
-        //SingleResponsibilityRun.run();
+        SingleResponsibilityRun.run();
         //OpenClosedRun.run();
         //LiskovSubstituitionRun.run();
         //InterfaceSegregationRun.run();

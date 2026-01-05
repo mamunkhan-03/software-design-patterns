@@ -9,7 +9,6 @@ public class LiskovSubstituitionRun {
         savings.deposit(1000);
         ((SavingsAccount) savings).withdraw(500);
 
-
         fda.deposit(5000);
 
     }
