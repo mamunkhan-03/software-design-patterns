@@ -20,6 +20,7 @@ import com.mamun.designpatterns.solid.lsp.LiskovSubstituitionRun;
 import com.mamun.designpatterns.solid.ocp.OpenClosedRun;
 import com.mamun.designpatterns.solid.srp.SingleResponsibilityRun;
 import com.mamun.designpatterns.structural.adapter.AdapterRun;
+import com.mamun.designpatterns.structural.bridge.BridgeRun;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -53,7 +54,8 @@ public class PatternRunner implements CommandLineRunner {
         //TemplateRun.run();
         //MementoRun.run();
         //MediatorRun.run();
-        AdapterRun.run();
+        //AdapterRun.run();
+        BridgeRun.run();
 
 
 //        Thread.startVirtualThread(() -> SingleResponsibilityRun.run());

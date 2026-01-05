@@ -31,4 +31,5 @@ public class Observer2Run {
         station.setWeatherData(24.0f, 80.0f, "Rainy");
     }
 
+
 }
