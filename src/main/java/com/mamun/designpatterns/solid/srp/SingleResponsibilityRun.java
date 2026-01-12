@@ -9,17 +9,13 @@ public class SingleResponsibilityRun {
         OtpService otpService = new OtpService();
         NotificationService notificationService = new NotificationService();
 
-        System.out.println("---- Deposit Flow ----");
+        System.out.println("Deposit Flow : ");
         accountService.deposit(5000, "ACC12345");
         otpService.sendOtp("sms");
         notificationService.sendNotification("email");
 
-        System.out.println("\n---- Loan Info ----");
+        System.out.println("\nLoan Info: ");
         double interest = loanInterestService.getInterestRate("HOMELOAN");
         System.out.println("Interest Rate: " + interest + "%");
-
-        System.out.println(
-                "Running SRP on thread: " + Thread.currentThread()
-        );
     }
 }

@@ -29,15 +29,9 @@ public class CompositeRun {
         authFeature.display("");
 
 
-//        System.out.println("Total hours for entire Feature: " + authFeature.getHours());
-//        System.out.println("Total hours for Story 1: " + story1.getHours());
-//        System.out.println("Total hours for Story 2: " + story2.getHours());
-//        System.out.println("Hours for single Task: " + task1.getHours());
-//
-//        System.out.println("\n✅ Same getHours() method works at ALL levels!");
-//        System.out.println("   - Feature level (contains stories)");
-//        System.out.println("   - Story level (contains tasks/bugs)");
-//        System.out.println("   - Task/Bug level (individual items)");
-//        System.out.println();
+        System.out.println("Total hours for entire Feature: " + authFeature.getHours());
+        System.out.println("Total hours for Story 1: " + story1.getHours());
+        System.out.println("Total hours for Story 2: " + story2.getHours());
+        System.out.println("Hours for single Task: " + task1.getHours());
     }
 }

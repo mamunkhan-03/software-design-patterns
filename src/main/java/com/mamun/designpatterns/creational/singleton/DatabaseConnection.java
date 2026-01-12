@@ -52,7 +52,7 @@ public class DatabaseConnection {
     }
 
     public void showConnectionInfo() {
-        System.out.println("--- Database Connection Info ---");
+        System.out.println("Database Connection Info : ");
         System.out.println("URL: " + connectionUrl);
         System.out.println("User: " + username);
         System.out.println("Status: " + (isConnected ? "Connected" : "Disconnected"));

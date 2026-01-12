@@ -4,7 +4,7 @@ public class AbstractFactoryRun {
 
     public static void run (){
 
-        System.out.println("--- Credit Card Payment ---");
+        System.out.println("Credit Card Payment : ");
 
         PaymentFactory factory=new CreditCardFactory();
         Payment payment =factory.createPayment();
@@ -13,7 +13,7 @@ public class AbstractFactoryRun {
         payment.processPayment(100000.00);
         receipt.generateReceipt();
 
-        System.out.println("\n--- Paypal Payment ---");
+        System.out.println("\nPaypal Payment : ");
 
         PaymentFactory factory2=new PayPalFactory();
         payment =factory2.createPayment();
@@ -22,7 +22,7 @@ public class AbstractFactoryRun {
         payment.processPayment(100000.00);
         receipt.generateReceipt();
 
-        System.out.println("--- Crypto Payment ---");
+        System.out.println("Crypto Payment: ");
 
         factory= new CreditCardFactory();
         payment =factory.createPayment();
