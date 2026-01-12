@@ -3,7 +3,7 @@ package com.mamun.designpatterns.creational.builder;
 public class PCBuildExpert {
 
     public Computer buildGamingPC(ComputerBuilder builder) {
-        System.out.println("Building High-End Gaming PC...");
+        System.out.println("Building High configuration Gaming PC : ");
         return builder
                 .addGPU("NVIDIA RTX 4080 16GB")
                 .addCoolingSystem("NZXT Kraken X63 AIO Liquid Cooler")
@@ -14,7 +14,7 @@ public class PCBuildExpert {
     }
 
     public Computer buildWorkstationPC(ComputerBuilder builder) {
-        System.out.println("Building Professional Workstation...");
+        System.out.println("Building Professional Workstation PC : ");
         return builder
                 .addGPU("NVIDIA RTX A4000 16GB")
                 .addCoolingSystem("Noctua NH-D15 Air Cooler")

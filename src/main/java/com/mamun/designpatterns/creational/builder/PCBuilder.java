@@ -77,7 +77,6 @@ public class PCBuilder implements ComputerBuilder {
         return new Computer(this);
     }
 
-    // Package-private getters for Computer class
     String getCpu() { return cpu; }
     String getMotherboard() { return motherboard; }
     String getRam() { return ram; }

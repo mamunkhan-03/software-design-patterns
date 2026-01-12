@@ -6,7 +6,7 @@ public class BuilderRun {
 
         PCBuildExpert expert = new PCBuildExpert();
 
-        System.out.println(" High-End Gaming PC: ");
+        System.out.println(" High Configuration Gaming PC: ");
         ComputerBuilder gamingBuild = new PCBuilder(
                 "Intel Core i9-13900K",
                 "ASUS ROG Maximus Z790",
@@ -18,7 +18,7 @@ public class BuilderRun {
         Computer gamingPC = expert.buildGamingPC(gamingBuild);
         gamingPC.displaySpecs();
 
-        System.out.println("Professional Workstation : ");
+        System.out.println("Professional PC : ");
         ComputerBuilder workstationBuild = new PCBuilder(
                 "AMD Ryzen 9 7950X",
                 "ASUS ProArt X670E",
